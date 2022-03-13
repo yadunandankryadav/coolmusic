@@ -1,0 +1,224 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:gray;
+}
+nav{
+    background-color: white;
+    position:absolute;
+    width: 100%;
+    padding:0px 90px;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: white;
+    float:left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu img{
+    height: auto;
+    width: 150%;
+}
+nav img {
+    margin-left: -90px;
+    }
+nav ul{
+    list-style: none;
+    float:right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 90px;
+    color: blue;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background: black;
+    border-radius: 5px;
+}
+.ado{
+    display: flex;
+    justify-content: center;
+}
+.fimg{
+    padding-top: 100px;
+    text-align: center;
+}
+.fimg img{
+    margin-top: 250px;
+    margin-right: 50px;
+    margin-left:50px ;
+    border-radius: 50%;
+}
+.glr{
+    margin-top: -597px;
+    margin-right: 100px;
+    margin-left: 70px;  
+}
+.arj{
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-left: 70px;  
+}
+.rah{
+    margin-top: -535px;
+    margin-right: 0px;
+    margin-left: 1050px;  
+}
+.ghos{
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-left: 1050px;
+}
+.ganna{
+    margin-top: 18px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+.song{
+    margin-top: -350px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px; 
+}
+.sng{
+    margin-top: -75px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 1020px; 
+}
+.ong{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 1050px;
+}
+.gsng{
+    margin-top: 250px;
+    margin-right: 15px;
+    margin-left: 1020px;     
+}
+.hit{
+    margin-top: -450px;
+    margin-right: 0px;
+    margin-left: 0px; 
+    text-align: center;
+}
+
+.adof{
+    padding-top: 10%;
+    text-align: left;
+}
+.adof p{
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.adof1 p{
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.adof1{
+margin: 10px;
+text-align: left;
+}
+.abt{
+    padding-top: 10%;
+}
+.yadu{
+    padding-top: 150px;
+    text-align: center;
+}
+.yadu img{
+    border-radius: 50%;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: -200px;
+    background-color: white;
+    padding-top: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.social img{
+    height: 20px;
+    margin: 15px;
+}
+.social{
+    text-align:left;
+    background-color: white;
+    width: 100%;
+    margin-top: 0%;
+    box-sizing: border-box;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 15px;
+    position: relative;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.copyright{
+    text-decoration: none;
+    text-align: center;
+}
+
+   @media (max-width:1085px){
+
+       .rah{
+           padding-right: 5%;
+          margin-left: 100px;
+           display: flex;
+           flex-direction: row-reverse;
+       }
+       .ghos{
+           margin-left: 780px;
+           display: flex;
+           flex-direction: row-reverse;
+       }
+      .sng{
+       padding: ;
+        margin-left: 700px;
+      }
+      .gsng{
+      margin-left: 700px;
+      }
+      
+      }
+      footer{
+          margin-bottom: -200px;
+      }
+   }
+ 
+    
+        
